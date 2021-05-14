@@ -1,0 +1,33 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h2.level{
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  background-color: #787878;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  /* font-family: sans-serif; */
+  font-weight: 500;   
+  border-color: chartreuse;
+  border-radius: 30px;
+}
+
+.bag-img img {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.2;
+  z-index: -1;
+}

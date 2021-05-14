@@ -1,0 +1,46 @@
+{
+    "Array": [
+        {
+            "name": "Introduction to C/C++", 
+            "src": "https://www.youtube.com/embed/AWliApDc61w"
+        },
+        {
+            "name": "Introduction to 1-D Arrays",
+            "src": "https://www.youtube.com/embed/PyTK_g1l8V8"
+        },
+        {
+            "name": "Introduction to 2-D Arrays",
+            "src": "https://www.youtube.com/embed/Xx1tWbb37hY"
+        },
+        {
+            "name": "Pointers in C/C++",
+            "src": "https://www.youtube.com/embed/h-HBipu_1P0"
+        },
+        {
+            "name": "All 6 Sorting Algorithm in C/C++",
+            "src": "https://www.youtube.com/embed/pkkFqlG0Hds"
+        }
+    ],
+    "Stack": [
+        {
+            "name": "Introduction to C/C++", 
+            "src": "https://www.youtube.com/embed/AWliApDc61w"
+        },
+        {
+            "name": "Introduction to 1-D Arrays",
+            "src": "https://www.youtube.com/embed/PyTK_g1l8V8"
+        },
+        {
+            "name": "Introduction to 2-D Arrays",
+            "src": "https://www.youtube.com/embed/Xx1tWbb37hY"
+        },
+        {
+            "name": "Pointers in C/C++",
+            "src": "https://www.youtube.com/embed/h-HBipu_1P0"
+        },
+        {
+            "name": "All 6 Sorting Algorithm in C/C++",
+            "src": "https://www.youtube.com/embed/pkkFqlG0Hds"
+        }
+    ]
+}
