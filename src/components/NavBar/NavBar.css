@@ -1,0 +1,10 @@
+.navbar{
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+    
+  .navrow {
+    margin: auto 0;
+    padding: auto 0;
+  }
