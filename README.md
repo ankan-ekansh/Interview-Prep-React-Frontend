@@ -5,10 +5,10 @@ React App for Interview Prep
 ## How to run
 
 ```bash
-git clone 'Repo url'
-cd 'Repo directory'
-npm install
-npm start
+$ git clone 'Repo url'
+$ cd 'Repo directory'
+$ npm install
+$ npm start
 ```
 
 ## TODO
