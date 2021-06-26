@@ -3,7 +3,7 @@ const app = express();
 const PORT = 8888;
 const cors = require('cors');
 const mongoose = require('mongoose');
-mongoose.connect('***REMOVED***', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('DB CONNECTION STRING', {useNewUrlParser: true, useUnifiedTopology: true});
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
 db.once("open", () => {
