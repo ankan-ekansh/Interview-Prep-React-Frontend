@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import problemData from '../../assets/tempJsonData/final_problems_data.json';
 import AceEditor from 'react-ace';
@@ -15,6 +15,14 @@ const ProblemDesc = (props) => {
     function onChange(newValue) {
         console.log("change", newValue);
     }
+    const [languageState, setLanguageState] = useState({
+        lang: 'c_cpp'
+    });
+    const changeLang = (e) => {
+        setLanguageState({
+            lang: e.target.value
+        })
+    }
     return (
         <div className="container mt-5">
             <div className="row">
@@ -22,6 +30,14 @@ const ProblemDesc = (props) => {
                     <ReactMarkdown source={problem.statement} />
                 </div>
                 <div className="col">
+                    <select
+                        value={languageState.lang}
+                        onChange={changeLang}
+                    >
+                    <option value="c_cpp">c_cpp</option>
+                    <option value="java">java</option>
+                    <option value="python">python</option>
+                    </select>
                     {/* <AceEditor 
                         placeholder="Start typing your code here"
                         // mode={problem.languages[0].language}
@@ -34,7 +50,8 @@ const ProblemDesc = (props) => {
                     /> */}
                     <AceEditor
                         placeholder="Placeholder Text"
-                        mode={problem.languages[0].language}
+                        // mode={problem.languages[0].language}
+                        mode={languageState.lang}
                         // mode="c_cpp"
                         theme="monokai"
                         name="blah2"
